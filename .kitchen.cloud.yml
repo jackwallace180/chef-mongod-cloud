@@ -12,7 +12,7 @@ driver:
 
   transport:
     #use our key from machine to access the test machine
-    ssh_key: ~/.ssh/DevOpsStudents.pem
+    # ssh_key: ~/.ssh/DevOpsStudents.pem
 
 
 # provisioner:
