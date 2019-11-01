@@ -6,13 +6,13 @@ driver:
   instance_type: t2.micro
   subnet_id: subnet-018e9e3078d34571c
   associate_public_ip: true
-  aws_ssh_key_id: JW-jenkins-aws
+  aws_ssh_key_id: DevOpsStudents
 
 
 
   transport:
     #use our key from machine to access the test machine
-    ssh_key: ~/.ssh/JW-jenkins-aws.pem
+    ssh_key: ~/.ssh/DevOpsStudents.pem
 
 
 # provisioner:
