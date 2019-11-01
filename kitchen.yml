@@ -21,7 +21,9 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ubuntu/xenial64
+  - name: ubuntu-18.04
+    driver:
+      box: ubuntu/xenial64
 
 suites:
   - name: default
